@@ -14,13 +14,14 @@
 header{
     grid-area: header;
     background-color: var(--primary-color);
+    text-align: center;
 }
 .navbar{
     grid-area: nav;
 }
 .navbar ul{
     list-style-type: none;
-    background-color: rgb(126, 126, 126);
+    background-color: rgb(185, 231, 193);
     padding: 0;
     margin: 0;
 
@@ -34,7 +35,7 @@ header{
     text-align: center;
 }
 .navbar a:hover{
-    background-color: #666;
+    background-color: #97d697;
     transition: 1s;
 }
 .navbar li {
@@ -43,6 +44,7 @@ header{
 main{
     grid-area: main;
     background-color: var(--accent-color);
+    padding-left: 10px
 }
 aside{
     grid-area: sidbar;
@@ -65,4 +67,46 @@ footer{
         ". sidbar . "
         ". footer . ";
     }
+}
+.flex-container-produkter{
+   
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.item-nya-produkter{
+    width: 100px;
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+    border: 7px solid #6e6e6e;
+    margin: 10px;
+    border-radius: 17px;
+    padding-inline: 5px;
+ }
+ #Bild_på_produkt_1{
+     width: 50px;
+     height: 50px;
+ }
+ #Bild_på_produkt_2{
+     width: 50px;
+     height: 50px;
+ }
+ #Bild_på_produkt_3{
+     width: 50px;
+     height: 50px;
+ }
+ #Bild_på_produkt_4{
+     width: 50px;
+     height: 50px;
+ }
+ #Bild_på_produkt_5{
+    width: 50px;
+    height: 50px;
+}
+#Bild_på_produkt_6{
+    width: 50px;
+    height: 50px;
+}
+#h2{
+  
 }
