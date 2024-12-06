@@ -57,21 +57,6 @@ footer{
     text-align: center;
 }
 
-@media (max-width:500px){
-    .Container{
-        height: 100vh;
-        display: grid;
-        grid-template-columns: 1% 1fr 1%;
-        grid-template-rows: auto auto 1fr 1fr 1fr;
-        grid-template-areas:
-        ". header ."
-        ". nav  ."
-        ". main ." 
-        ". sidbar . "
-        ". footer . ";
-    }
-    
-}
 
 .flex-container-produkter{
     display: flex;
@@ -104,4 +89,66 @@ footer p{
 footer h3{
     margin-top: 5px;
     margin-bottom: 5px;
+}
+#message{
+    resize: none;
+}
+
+.innerform{
+    display: flex;
+    flex-wrap: wrap;
+}
+.innerform input{
+    width: 55%;
+    box-sizing: border-box;
+}
+.innerform label{
+    width: 23%;
+    box-sizing: border-box;
+}
+.innerform textarea{
+    width: 70%;
+    box-sizing: border-box;
+}
+.innerform h4{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+@media (max-width:500px){
+    .Container{
+        height: 100vh;
+        display: grid;
+        grid-template-columns: 1% 1fr 1%;
+        grid-template-rows: auto auto 1fr 1fr 1fr;
+        grid-template-areas:
+        ". header ."
+        ". nav  ."
+        ". main ." 
+        ". sidbar . "
+        ". footer . ";
+    }
+
+    .innerform{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .innerform input{
+        width: 55%;
+        box-sizing: border-box;
+    }
+    .innerform label{
+        width: 23%;
+        box-sizing: border-box;
+    }
+    .innerform textarea{
+        width: 90%;
+        box-sizing: border-box;
+    }
+    .innerform h4{
+        width: 100%;
+        box-sizing: border-box;
+    }
+    
 }
