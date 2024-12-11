@@ -94,27 +94,33 @@ footer h3{
     resize: none;
 }
 
-.innerform{
-    display: flex;
-    flex-wrap: wrap;
-}
+
 .innerform input{
-    width: 55%;
+    width: 200px;
     box-sizing: border-box;
 }
+.innerform input[type="submit"]{
+    width: 55px;
+}
 .innerform label{
-    width: 23%;
+    width: 75px;
+    display: inline-block;
     box-sizing: border-box;
 }
 .innerform textarea{
-    width: 70%;
+    width: 430px;
     box-sizing: border-box;
 }
 .innerform h4{
     width: 100%;
     box-sizing: border-box;
 }
-
+.fullosning{
+    width: 70%;
+}
+h1{
+    text-align: center;
+}
 
 @media (max-width:500px){
     .Container{
@@ -143,7 +149,7 @@ footer h3{
         box-sizing: border-box;
     }
     .innerform textarea{
-        width: 90%;
+        width: 55%;
         box-sizing: border-box;
     }
     .innerform h4{
